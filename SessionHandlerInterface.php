@@ -57,3 +57,15 @@ interface SessionHandlerInterface {
 	public function destroy($session_id);
 	public function gc($maxlifetime);
 }
+
+/**
+ * SessionHandlerInterface
+ *
+ * PHP 5.4 compatibility interface
+ *
+ * @package	CodeIgniter
+ * @subpackage	Libraries
+ * @category	Sessions
+ * @author	Andrey Andreev
+ * @link	https://codeigniter.com/user_guide/libraries/sessions.html
+ */
